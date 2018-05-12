@@ -2,7 +2,9 @@
 
 ## Usage
 1.) Download Debug-PoC.exe
+
 2.) Run as Administrator
+
 3.) Look in task manager, procexp, or tasklist to view that a bunch of notepads have been spawned under random processes
 
 ## Some Basic Insight
