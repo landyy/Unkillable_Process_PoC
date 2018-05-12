@@ -1,5 +1,10 @@
 # Unkillable_Process_PoC
 
+## Usage
+1.) Download Debug-PoC.exe
+2.) Run as Administrator
+3.) Look in task manager, procexp, or tasklist to view that a bunch of notepads have been spawned under random processes
+
 ## Some Basic Insight
 This is a simple PoC to demonstrate using Extended Startup attributes with CreateProcess() and DebugActiveProcess() you can create an "unkillable" process. I use quotes because if you find the parent, you can kill the process, but with the right Extended Startup Attributes (specifically PROC_THREAD_ATTRIBUTE_PARENT_PROCESS) you can specify a different parent process for CreateProcess to start the process under. For those unaware, PPID (Parent Process ID) in windows means absolutely nothing.
 
