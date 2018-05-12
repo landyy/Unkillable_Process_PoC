@@ -20,3 +20,7 @@ This program simply spawns a bunch of notepads under different processes on the 
 - Get Working with Dll for process injection
 - Find a way to allow for execution of payloads even if it is being debugged
 
+Credit to this guy for his awesome blog post:
+https://blog.didierstevens.com/2009/11/22/quickpost-selectmyparent-or-playing-with-the-windows-process-tree/
+
+
